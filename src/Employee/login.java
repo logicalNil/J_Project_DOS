@@ -36,7 +36,7 @@ class login  implements ActionListener{
         t2.setBounds(150,70,150,30);
         f.add(t2);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Employee/icons/login.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Employee/icons/VIT logo.png"));
         Image i2 = i1.getImage().getScaledInstance(150,150,Image.SCALE_DEFAULT);
         ImageIcon i3 =  new ImageIcon(i2);
         JLabel l3 = new JLabel(i3);
