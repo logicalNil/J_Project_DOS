@@ -15,7 +15,7 @@ class Update_Employee extends Add_Employee implements ActionListener{
 
     Update_Employee(String idaa){
         super(0);
-        f=new JFrame("update Employee details");
+        f=new JFrame("Update Employee details");
         f.setVisible(true);
         f.setSize(900,500);
         f.setLocation(450,250);
